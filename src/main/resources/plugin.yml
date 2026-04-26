@@ -1,0 +1,14 @@
+name: BarBridge
+version: 1.0.0
+main: com.mireacul.barbridge.BarBridge
+description: Self-contained boss bar for 1.8.x using NMS Wither entities
+author: Mireacul
+softdepend: [ProtocolLib]
+
+commands:
+  bar:
+    description: Control boss bars
+    permission: barbridge.admin
+    usage: |
+      /bar <set|timed|msg|health|remove> <player|*> [args]
+      Aliases: msg = message = update; remove = clear
